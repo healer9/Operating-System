@@ -15,7 +15,6 @@ void printTable(int a[][6],int r)
 {
 	cout<<"Process Table\n\n";
 	float sum3 = 0, sum4 = 0, sum5 = 0;
-	int sum = 0;
 	for(int i = 0;i < r;i++)
 	{
 		sum3 = sum3 + c[i];
