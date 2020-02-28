@@ -39,7 +39,7 @@ void printTable(int a[][6],int r)
 	cout<<"AVG : \t\t\t"<<sum3/r<<"\t"<<sum4/r<<"\t"<<sum5/r<<"\n\n";
 }
 
-void gannt(int a[][6],int r)
+void gantt(int a[][6],int r)
 {
 	cout<<"GANNT CHART\n";
 	cout<<"|\t";
@@ -128,5 +128,5 @@ int main()
 
     }
     printTable(a,r);   
-    gannt(a,r);
+    gantt(a,r);
 }
